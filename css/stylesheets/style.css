@@ -7,7 +7,8 @@
                 Light Purple      : #736EDF   (header)
                 White             : #fff      (text on purple, background)
                 Mint Green:       : #81D398   (header, buttons)
-                Off White:        : #F5F9FC   (background)
+                Off Bluish        : #F5F9FC   (background)
+                Off White:        : #FCFCFD    (service card background)
                 Steel Gray        : #41464b   (headings)
                 Black             : #000
 
@@ -83,6 +84,7 @@ p {
                         HEADER BACKGROUND
 ===========================================================*/
 #home-grid {
+  background:cover;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
@@ -90,16 +92,24 @@ p {
   overflow: hidden;
   z-index: -1;
 }
-.purple-dark {
+.purple-dark-section {
   background-color: #752DD0;
   height: 20vh;
 }
-.purple-medium {
+.purple-medium-section {
   background-color: #744DDC;
   height: 35vh;
 }
-.purple-light {
+.purple-light-section {
   background-color: #736EDF;
+  height: 16vh;
+}
+.white-section {
+  background-color: #fff;
+  height: 80vh;
+}
+.off-white-section {
+  background-color: #F5F9FC;
   height: 16vh;
 }
 .purple-grid-rows {
@@ -113,6 +123,7 @@ p {
 #home-content-box {
   width: 100%;
   height: 100%;
+  top: 20px;
   margin-top: -60vh;
   display: table;
 }
@@ -199,26 +210,6 @@ form .search-form-input {
   animation-delay: .1s;
   animation-duration: .2s;
 }
-
-/*=========================================================
-                        CONTENT BOX
-===========================================================*/
-.content-box {
-  padding: 60px 0 60px 0;
-}
-.content-title h3{
-  font-size: 3.5vh;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 0 30px 0;
-}
-.content-title-underline {
-  width: 30px;
-  height: 3px;
-  background-color: #34c6d3;
-  margin: 0 auto 30px auto;
-}
-
 /*=========================================================
                         ABOUT
 ===========================================================*/
@@ -245,6 +236,51 @@ form .search-form-input {
 /*=========================================================
                         SERVICES
 ===========================================================*/
+#services-content-box {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.services-content-title h3{
+  font-size: 3.5vh;
+  font-weight: 600;
+  text-align: center;
+  /* margin: 0 0 30px 0; */
+}
+.services-content-title-underline {
+  width: 20px;
+  height: 2px;
+  background-color: #34c6d3;
+  margin: 20px auto 80px auto;
+}
+#services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  justify-content: center;
+  align-items: center;
+}
+.service-item {
+  background: #fff;
+  display: block;
+  padding: 5px;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: #FCFCFD;
+  border: 2px solid #F5F9FC;
+}
+#services-grid-outer-wrapper {
+  padding: 0 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 /* .service-item {
   padding: 20px 0 20px 0;
   margin-bottom: 20px;
