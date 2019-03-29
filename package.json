@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "4.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1"
+  }
+}
