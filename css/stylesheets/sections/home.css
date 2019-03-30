@@ -40,4 +40,10 @@ form .search-form-input {
   font-weight: 300;
   padding: 10px 6vw;
   color: #752DD0;
+  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.5);
+}
+
+form .search-form-input:hover,
+form .search-form-input:focus, {
+  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.6);
 }
