@@ -33,17 +33,33 @@
   .services-content-box {
     padding-bottom: 10vh;
   }
-
+  /* Contact  */
   .contact-content-box {
     padding-left: 10%;
     padding-right: 10%;
   }
-
 }
 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px){
-
+  /* Page background grid */
+  .off-white-section {
+    background-color: #F5F9FC;
+    height: 18vh;
+  }
+  /* Contact  */
+  .contact-content-box {
+    margin: 30px 30px;
+    padding-top: 5vh;
+  }
+  /* Services  */
+  .services-content-title-underline {
+    margin: 20px auto 30px auto
+  }
+  /* About */
+  #about-content-box{
+    padding-bottom: 8vh;
+  }
 }
 
 /* X-Small Devices 1 */
@@ -53,6 +69,14 @@
 
 /* X-Small Devices 2 */
 @media (max-width: 480px) {
+  /* About */
+  #about-content-box{
+    padding: 8vh 10px;
+  }
+  /* Services  */
+  .services-content-title-underline {
+    margin: 20px auto 30px auto
+  }
 
 }
 
