@@ -11,6 +11,6 @@ $(function() {
   });
 });
 
-$('.general-btn').onClick(function(){
-    $('.logo-img').addClass('jackInTheBox');
-});
+// $('.general-btn').onClick(function(){
+//     $('.logo-img').addClass('jackInTheBox');
+// });
