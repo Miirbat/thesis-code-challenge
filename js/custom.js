@@ -10,3 +10,7 @@ $(function() {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+$('.general-btn').onClick(function(){
+    $('.logo-img').addClass('jackInTheBox');
+});

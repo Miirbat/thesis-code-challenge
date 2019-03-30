@@ -25,8 +25,8 @@
 
 .btn-purple:hover,
 .btn-purple:focus {
-  background-color: #fff;
-  color: #736EDF;
+  background-color: #752DD0;
+  color: #fff;
 }
 
 .btn-white {
@@ -36,7 +36,7 @@
 
 .btn-white:hover,
 .btn-white:focus {
-  background-color: #736EDF;
+  background-color: #752DD0;
   color: #fff;
 }
 
