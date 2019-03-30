@@ -1,6 +1,6 @@
 #background-grid {
   display: grid;
-  width: 100%;
+  width: 100vw;
   position: relative;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -10,22 +10,22 @@
 
 .purple-dark-section {
   background-color: #752DD0;
-  height: 18vh;
+  height: 20vh;
 }
 
 .purple-medium-section {
   background-color: #744DDC;
-  height: 30vh;
+  height: 28vh;
 }
 
 .purple-light-section {
   background-color: #736EDF;
-  height: 14vh;
+  height: 12vh;
 }
 
 .white-section {
   background-color: #fff;
-  height: 90vh;
+  height: 60vh;
 }
 
 .off-white-section {

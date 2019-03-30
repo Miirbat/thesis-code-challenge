@@ -2,13 +2,13 @@
   height: auto;
   width: 60%;
   margin: 0 auto 0 auto;
-  padding: 12vh 0 10vh 0;
+  padding: 14vh 0 5vh 0;
 }
 
 .about-content-box-wrapper {
   vertical-align: middle;
   text-align: center;
-  padding: 0 160px;
+  padding: 0 60px;
 }
 
 .about-description p {
