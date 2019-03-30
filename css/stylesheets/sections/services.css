@@ -2,6 +2,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10vh;
 }
 
 .services-content-title h3 {
@@ -27,6 +28,12 @@
   align-items: center;
 }
 
+.services-grid-wrapper {
+  padding: 0 25vw;
+  justify-content: center;
+  align-items: center;
+}
+
 .service-item {
   display: block;
   padding: 20px;
@@ -36,12 +43,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.services-grid-wrapper {
-  padding: 0 10vw;
-  justify-content: center;
-  align-items: center;
 }
 
 .service-item-icon i {
