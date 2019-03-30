@@ -43,6 +43,11 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover {
+  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.06);
 }
 
 .service-item-icon i {

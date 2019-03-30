@@ -40,6 +40,10 @@
   color: #fff;
 }
 
+.search-form-submit-btn {
+  box-shadow: 4px 10px 18px -5px rgba(0,0,0,0.33);
+}
+
 .home-arrow-icon i {
   color: #81D398;
 }
