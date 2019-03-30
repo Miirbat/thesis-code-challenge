@@ -1,23 +1,36 @@
-#contact {}
+.contact-content-box {
+  height: 100%;
+}
 
 .contact-content-box-wrapper {
-  padding: 40px;
+  padding: 0 10vw;
 }
 
 .contact-titles {
-  float: left;
+  margin-left: 10vw;
 }
 
-.contact-text-header p {
+.contact-buttons {
+  margin-right: 10vw;
+}
+
+.contact-text-header p,
+.contact-text-sub-header p {
   color: #736EDF;
   letter-spacing: 1px;
 }
 
-.contact-text-sub-header p {
-  color: #752DD0;
-  letter-spacing: 1px;
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.contact-buttons {
-  float: right;
+.contact-item {
+  display: block;
+  padding: 20px;
 }
