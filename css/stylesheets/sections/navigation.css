@@ -40,3 +40,7 @@
 .mywebnow-top-nav ul.navbar-nav li.active a {
   color: #81D398
 }
+.navbar-fixed-top.scrolled {
+  background-color: rgb(116,77,220,0.5) !important;
+  transition: background-color 200ms linear;
+}
