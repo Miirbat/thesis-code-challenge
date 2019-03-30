@@ -38,3 +38,12 @@
   background-color: #736EDF;
   color: #fff;
 }
+
+.home-arrow-icon i {
+  color: #81D398;
+}
+
+.home-arrow-icon:hover i {
+  color: #744DDC;
+  border-radius: 6px;
+}

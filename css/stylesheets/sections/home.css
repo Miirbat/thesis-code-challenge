@@ -18,6 +18,14 @@
   letter-spacing: 2px;
 }
 
+.home-sub-heading p {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5vh;
+  font-weight: 200;
+}
+
 #search-form {
   display: inline-block;
   align: left;
@@ -27,26 +35,9 @@
 form .search-form-input {
   background: #fff;
   border-radius: 6px;
-  ;
+  border-style: none;
   font-size: 17px;
   font-weight: 300;
-  padding: 8px 6vw;
-  /* margin-bottom: 20px; */
-  color: #fff;
-}
-
-.home-sub-heading p {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.5vh;
-  font-weight: 200;
-}
-
-.home-arrow-icon i {
-  color: #fff;
-}
-
-.home-arrow-icon:hover i {
-  color: #744DDC;
-  border-radius: 6px;
+  padding: 10px 6vw;
+  color: #752DD0;
 }
