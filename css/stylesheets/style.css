@@ -102,14 +102,7 @@ p {
 .off-white-section {
   background-color: #F5F9FC;
   height: 40vh;
-  bottom: 0;
 }
-/* .purple-medium-footer {
-  background-color: #744DDC;
-  transform: skewY(10deg);
-  height: 40vh;
-  margin-top: -20vh;
-} */
 .background-grid-rows {
   transform: skewY(-10deg);
   margin-top: -20vh;
@@ -230,26 +223,43 @@ form .search-form-input {
   margin: 0 auto 0 auto;
   padding: 20vh 40px 10vh 40px;
 }
-#about-content-box-outer {
+/* #about-content-box-outer {
   width: 60%;
   height: 100%;
   margin: 0 auto 0 auto;
   display: table;
-}
-#about-content-box-inner {
+} */
+#about-content-box-wrapper {
   vertical-align: middle;
   text-align: center;
-  display: table-cell;
   padding: 0 10px;
 }
 #about-desc p {
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 /*=========================================================
                         SERVICES
 ===========================================================*/
-#services-grid {
+.services-content-box {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.services-content-title h3{
+  font-size: 2vh;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.services-content-title-underline {
+  width: 20px;
+  height: 2px;
+  background-color: #744DDC;
+  margin: 20px auto 80px auto;
+}
+.services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
@@ -267,37 +277,16 @@ form .search-form-input {
   align-items: center;
   justify-content: center;
 }
-#services-grid-outer-wrapper {
-  padding: 0 20vw;
+.services-grid-wrapper {
+  padding: 0 10vw;
   justify-content: center;
   align-items: center;
-}
-#services-content-box {
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.services-content-title h3{
-  font-size: 2vh;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-align: center;
-  /* margin: 0 0 30px 0; */
-}
-.services-content-title-underline {
-  width: 20px;
-  height: 2px;
-  background-color: #744DDC;
-  margin: 20px auto 80px auto;
 }
 .service-item-icon i {
   color: #744DDC;
   float: left;
-  padding: 15px;
-  margin-right: 25px;
-  width: 75px;
-  height: 75px;
-  text-align: center;
+  padding: 5px;
+  align-items: center;
 }
 .service-item:hover .service-item-icon i {
   color: #fff;
@@ -322,8 +311,8 @@ form .search-form-input {
 ===========================================================*/
 #contact{
 }
-.contact-content-box-outer {
-  padding: 10vh 10vw;
+.contact-content-box-wrapper {
+  padding: 40px;
 }
 .contact-titles {
   float: left;
@@ -345,6 +334,8 @@ form .search-form-input {
                         FOOTER
 ===========================================================*/
 footer {
+  position: fixed;
+  bottom: 0;
   background-color: #744DDC;
   height: 20vh;
   padding: 30px 20px;
