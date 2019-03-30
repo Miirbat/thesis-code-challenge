@@ -1,10 +1,12 @@
 footer {
   position: fixed;
+  display: table;
   width: 100%;
   bottom: 0;
   background-color: #744DDC;
   height: 22vh;
   padding: 30px 10px;
+  vertical-align: middle;
 }
 
 footer ul {
@@ -20,6 +22,8 @@ footer .container {
   text-align: center;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .footer-list-items li a {
