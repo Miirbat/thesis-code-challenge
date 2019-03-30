@@ -1,0 +1,34 @@
+#background-grid {
+  display: grid;
+  width: 100%;
+  position:relative;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  overflow: hidden;
+  z-index: -1;
+}
+.purple-dark-section {
+  background-color: #752DD0;
+  height: 20vh;
+}
+.purple-medium-section {
+  background-color: #744DDC;
+  height: 35vh;
+}
+.purple-light-section {
+  background-color: #736EDF;
+  height: 16vh;
+}
+.white-section {
+  background-color: #fff;
+  height: 90vh;
+}
+.off-white-section {
+  background-color: #F5F9FC;
+  height: 40vh;
+}
+.background-grid-rows {
+  transform: skewY(-10deg);
+  margin-top: -20vh;
+  padding-bottom: 20vh;
+}

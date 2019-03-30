@@ -1,0 +1,15 @@
+#about-content-box {
+  height: auto;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  padding: 20vh 40px 10vh 40px;
+}
+#about-content-box-wrapper {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 10px;
+}
+#about-desc p {
+  margin-bottom: 20px;
+  justify-content: center;
+}

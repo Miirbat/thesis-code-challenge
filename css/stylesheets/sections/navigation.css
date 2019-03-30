@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  padding: 10px 0;
+  transition: all .5s ease-in-out;
+}
+.mywebnow-top-nav {
+  padding: 7px 0;
+}
+.mywebnow-nav-wrapper {
+  padding: 0 35px;
+}
+.navbar-nav {
+  float: right;
+}
+.navbar-nav li a {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+  background: none;
+  color: #81D398;
+}
+.navbar-toggle {
+  background-color: rgba(0,0,0,0.1);
+  /* border: 1px solid #fff; */
+  border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-collapse {
+  max-height: none !important;
+}
+.mywebnow-top-nav ul.navbar-nav li.active a {
+  color: #81D398
+}
