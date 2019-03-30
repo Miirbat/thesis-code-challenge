@@ -21,3 +21,13 @@ footer .container {
   align-items: center;
   justify-content: center;
 }
+
+.footer-list-items li a {
+  color: #fff;
+  font-weight: light;
+}
+
+.footer-list-items li a:hover {
+  color: #81D398;
+  text-decoration: none;
+}
