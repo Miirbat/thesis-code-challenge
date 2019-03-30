@@ -47,7 +47,7 @@
 }
 
 .service-item:hover {
-  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.06);
+  box-shadow: 3px 17px 36px -8px rgba(0, 0, 0, 0.08);
 }
 
 .service-item-icon i {
