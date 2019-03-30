@@ -70,23 +70,6 @@ p {
   background-color: #736EDF;
   color: #fff;
 }
-/* .home-arrow-btn{
-  color: #81D398;
-  padding: 20px;
-}
-.home-arrow-btn:hover,
-.home-arrow-btn:focus
-{
-  color: #fff;
-} */
-
-.home-arrow-icon i {
-  color: #fff;
-}
-.home-arrow-icon:hover i {
-  color: #744DDC;
-  border-radius: 6px;
-}
 
 /*=========================================================
                         GRID BACKGROUND
@@ -134,7 +117,7 @@ p {
 }
 
 /*=========================================================
-                        HEADER CONTENT
+                        HOME/HEADER CONTENT
 ===========================================================*/
 #home-content-box {
   width: 100%;
@@ -173,6 +156,14 @@ form .search-form-input {
   font-size: 1.5vh;
   font-weight: 200;
 }
+.home-arrow-icon i {
+  color: #fff;
+}
+.home-arrow-icon:hover i {
+  color: #744DDC;
+  border-radius: 6px;
+}
+
 /*=========================================================
                         NAVIGATION
 ===========================================================*/
@@ -180,12 +171,11 @@ form .search-form-input {
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
   padding: 10px 0;
   transition: all .5s ease-in-out;
 }
 .mywebnow-top-nav {
-  /* background: rgba(0,0,0,0.7); */
   padding: 7px 0;
 }
 .mywebnow-nav-wrapper {
@@ -200,7 +190,8 @@ form .search-form-input {
   letter-spacing: 1px;
   font-weight: 700;
 }
-.navbar-nav li a:hover, .navbar-nav li a:focus {
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
   background: none;
   color: #81D398;
 }
@@ -218,6 +209,7 @@ form .search-form-input {
 .mywebnow-top-nav ul.navbar-nav li.active a {
   color: #81D398
 }
+
 /*=========================================================
                         ANIMATE
 ===========================================================*/
@@ -286,8 +278,9 @@ form .search-form-input {
   align-items: center;
 }
 .services-content-title h3{
-  font-size: 3.5vh;
-  font-weight: 600;
+  font-size: 2vh;
+  font-weight: 300;
+  letter-spacing: 2px;
   text-align: center;
   /* margin: 0 0 30px 0; */
 }
@@ -312,11 +305,14 @@ form .search-form-input {
   border-radius: 6px;
 }
 .service-item-title h3 {
-  font-size: 2vh;
-  font-weight: 400;
+  font-size: 1.3vh;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin: 0 0 10px 0;
 }
 .service-item-desc p {
+  font-size: 16px;
   margin: 0;
   padding-left: 85px;
 }
@@ -332,6 +328,14 @@ form .search-form-input {
 .contact-titles {
   float: left;
 }
+.contact-text-header p {
+  color: #736EDF;
+  letter-spacing: 1px;
+}
+.contact-text-sub-header p {
+  color: #752DD0;
+  letter-spacing: 1px;
+}
 
 .contact-buttons {
   float: right;
@@ -343,7 +347,42 @@ form .search-form-input {
 footer {
   background-color: #744DDC;
   height: 20vh;
-  left: 0;
-  bottom: 0;
+  padding: 30px 20px;
+
+  /* left: 0;
+  bottom: 0; */
   width: 100%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  color: #fff;
+  font-weight: light;
+}
+
+/*=========================================================
+                        SOCIAL
+===========================================================*/
+.social-list {
+  padding-left: 0;
+}
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.social-icon i {
+  font-size: 17px;
+}
+.icon-white i {
+  color: #fff;
+}
+.social-icon i:hover {
+  color: #81D398;
 }
