@@ -5,28 +5,34 @@
   padding: 1vh 1vw;
   font-weight: 300;
 }
+
 .btn-mint {
   background-color: #81D398;
   color: #fff;
 }
+
 .btn-mint:hover,
 .btn-mint:focus {
   background-color: #fff;
   color: #81D398;
 }
+
 .btn-purple {
   background-color: #736EDF;
   color: #fff;
 }
+
 .btn-purple:hover,
 .btn-purple:focus {
   background-color: #fff;
   color: #736EDF;
 }
+
 .btn-white {
   background-color: #fff;
   color: #736EDF;
 }
+
 .btn-white:hover,
 .btn-white:focus {
   background-color: #736EDF;

@@ -3,18 +3,21 @@
   justify-content: center;
   align-items: center;
 }
-.services-content-title h3{
+
+.services-content-title h3 {
   font-size: 2vh;
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
 }
+
 .services-content-title-underline {
   width: 20px;
   height: 2px;
   background-color: #744DDC;
   margin: 20px auto 80px auto;
 }
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -23,6 +26,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .service-item {
   display: block;
   padding: 20px;
@@ -33,22 +37,26 @@
   align-items: center;
   justify-content: center;
 }
+
 .services-grid-wrapper {
   padding: 0 10vw;
   justify-content: center;
   align-items: center;
 }
+
 .service-item-icon i {
   color: #744DDC;
   float: left;
   padding: 5px;
   align-items: center;
 }
+
 .service-item:hover .service-item-icon i {
   color: #fff;
   background-color: #744DDC;
   border-radius: 6px;
 }
+
 .service-item-title h3 {
   font-size: 1.3vh;
   font-weight: 600;
@@ -56,6 +64,7 @@
   text-transform: uppercase;
   margin: 0 0 10px 0;
 }
+
 .service-item-desc p {
   font-size: 16px;
   margin: 0;

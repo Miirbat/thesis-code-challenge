@@ -1,15 +1,18 @@
-#contact{
-}
+#contact {}
+
 .contact-content-box-wrapper {
   padding: 40px;
 }
+
 .contact-titles {
   float: left;
 }
+
 .contact-text-header p {
   color: #736EDF;
   letter-spacing: 1px;
 }
+
 .contact-text-sub-header p {
   color: #752DD0;
   letter-spacing: 1px;
