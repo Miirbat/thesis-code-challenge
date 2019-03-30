@@ -31,7 +31,7 @@
 }
 
 /* Small Devices */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 781px) and (max-width: 991px) {
 
   /* About */
   .about-content-box {
@@ -40,7 +40,7 @@
 
   /* Page background grid */
   .white-section {
-    height: 110vh;
+    height: 115vh;
   }
 
   /* Home */
@@ -64,7 +64,7 @@
 }
 
 /* X-Small Devices 1 */
-@media (max-width: 767px) {
+@media (max-width: 780px) {
 
   /* About */
   .about-content-box {
@@ -97,7 +97,7 @@
 }
 
 /* X-Small Devices 1 */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
   /* About */
   .about-content-box {
@@ -106,7 +106,7 @@
 
   /* Page background grid */
   .white-section {
-    height: 140vh;
+    height: 150vh;
   }
 
   /* Services */
@@ -134,7 +134,7 @@
 
   /* Page background grid */
   .white-section {
-    height: 170vh;
+    height: 150vh;
   }
 
   .off-white-section {
