@@ -1,89 +1,241 @@
 /* Large Devices - Desktop/Laptop */
 @media (min-width: 1200px) {
-  /* Services */
-  /* .services-grid {
-    margin: 0 20%;
-  } */
+
   /* Page background grid */
-  /* .off-white-section {
-    background-color: #F5F9FC;
-    height: 20vh;
-  } */
-  /* Contact */
-  /* .contact-content-box {
-    padding: 50px 500px;
-    margin-top: 20px;
-  } */
+  .white-section {
+    height: 90vh;
+  }
 }
 
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  /* About */
+  .about-content-box-wrapper {
+    padding: 0 !important;
+  }
+
   /* Services */
-  .services-grid {
-    margin: 0 10%;
+  .services-content-title-underline {
+    margin-bottom: 40px !important;
   }
 
   /* Page background grid */
   .off-white-section {
-    background-color: #F5F9FC;
     height: 25vh;
   }
 
-  /* Services  */
-  .services-content-box {
-    padding-bottom: 10vh;
-  }
-
-  /* Contact  */
-  .contact-content-box {
-    padding-left: 10%;
-    padding-right: 10%;
+  .white-section {
+    height: 90vh;
   }
 }
 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 
-  /* Page background grid */
-  .off-white-section {
-    background-color: #F5F9FC;
-    height: 18vh;
-  }
-
-  /* Contact  */
-  .contact-content-box {
-    margin: 30px 30px;
-    padding-top: 5vh;
-  }
-
-  /* Services  */
-  .services-content-title-underline {
-    margin: 20px auto 30px auto
-  }
-
   /* About */
-  #about-content-box {
-    padding-bottom: 8vh;
+  .about-content-box {
+    padding-top: 10vh !important;
+  }
+
+  /* Page background grid */
+  .white-section {
+    height: 110vh;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
+  }
+
+  /* Services */
+  .services-content-title-underline {
+    margin-bottom: 40px !important;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
   }
 }
 
 /* X-Small Devices 1 */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  /* About */
+  .about-content-box {
+    padding-top: 10vh !important;
+  }
+
+  /* Page background grid */
+  .white-section {
+    height: 130vh;
+  }
+
+  /* Services */
+  .services-content-title-underline {
+    margin-bottom: 40px !important;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
+  }
+}
+
+/* X-Small Devices 1 */
+@media (max-width: 600px) {
+
+  /* About */
+  .about-content-box {
+    padding-top: 10vh !important;
+  }
+
+  /* Page background grid */
+  .white-section {
+    height: 140vh;
+  }
+
+  /* Services */
+  .services-content-title-underline {
+    margin-bottom: 40px !important;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
+  }
+}
 
 /* X-Small Devices 2 */
 @media (max-width: 480px) {
 
+  /* Page background grid */
+  .white-section {
+    height: 170vh;
+  }
+
+  .off-white-section {
+    height: 30vh;
+  }
+
   /* About */
-  #about-content-box {
-    padding: 8vh 10px;
+  .about-content-box {
+    padding-top: 5vh !important;
+  }
+
+  .about-content-box-wrapper {
+    padding: 0px !important;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
   }
 
   /* Services  */
-  .services-content-title-underline {
-    margin: 20px auto 30px auto
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
   }
 }
 
 /* X-Small Devices 3 */
-@media (max-width: 320px) {}
+@media (max-width: 375px) {
+
+  /* Page background grid */
+  .white-section {
+    height: 190vh;
+  }
+
+  .off-white-section {
+    height: 30vh;
+  }
+
+  /* About */
+  .about-content-box {
+    padding-top: 5vh !important;
+  }
+
+  .about-content-box-wrapper {
+    padding: 0px !important;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
+  }
+
+  /* Services  */
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
+  }
+}
+
+/* X-Small Devices 3 */
+@media (max-width: 320px) {
+
+  /* Page background grid */
+  .white-section {
+    height: 220vh;
+  }
+
+  .off-white-section {
+    height: 30vh;
+  }
+
+  /* About */
+  .about-content-box {
+    padding-top: 5vh !important;
+  }
+
+  .about-content-box-wrapper {
+    padding: 0px !important;
+  }
+
+  /* Home */
+  .home-sub-heading p {
+    color: #81D398 !important;
+    font-weight: 400 !important;
+  }
+
+  .home-arrow-icon a i {
+    height: 10px;
+  }
+
+  /* Services  */
+  .services-grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
+  }
+}

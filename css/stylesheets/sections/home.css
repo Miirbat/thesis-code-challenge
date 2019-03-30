@@ -1,21 +1,29 @@
-#home-content-box {
+.home-content-box {
   width: 100%;
   height: 100%;
   margin-top: 10vh;
   display: table;
 }
 
-#home-content-box-inner {
+.home-content-box-inner {
   vertical-align: middle;
   text-align: center;
 }
 
-#home-heading h3 {
+.home-heading h3 {
   color: #fff;
   font-size: 4.5vh !important;
   font-weight: 500;
   margin: 20px 0 20px 0;
   letter-spacing: 2px;
+}
+
+.home-sub-heading p {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5vh;
+  font-weight: 200;
 }
 
 #search-form {
@@ -27,26 +35,9 @@
 form .search-form-input {
   background: #fff;
   border-radius: 6px;
-  ;
+  border-style: none;
   font-size: 17px;
   font-weight: 300;
-  padding: 8px 6vw;
-  /* margin-bottom: 20px; */
-  color: #fff;
-}
-
-#home-sub-heading p {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.5vh;
-  font-weight: 200;
-}
-
-.home-arrow-icon i {
-  color: #fff;
-}
-
-.home-arrow-icon:hover i {
-  color: #744DDC;
-  border-radius: 6px;
+  padding: 10px 6vw;
+  color: #752DD0;
 }

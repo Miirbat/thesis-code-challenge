@@ -2,6 +2,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10vh;
 }
 
 .services-content-title h3 {
@@ -15,14 +16,20 @@
   width: 20px;
   height: 2px;
   background-color: #744DDC;
-  margin: 20px auto 80px auto;
+  margin: 20px auto 60px auto;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-gap: 10px;
   grid-auto-flow: dense;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-grid-wrapper {
+  padding: 0 25vw;
   justify-content: center;
   align-items: center;
 }
@@ -36,12 +43,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.services-grid-wrapper {
-  padding: 0 10vw;
-  justify-content: center;
-  align-items: center;
 }
 
 .service-item-icon i {
