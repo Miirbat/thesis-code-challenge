@@ -11,6 +11,7 @@ $(function() {
   });
 });
 
+// additional features to add
 // $('.general-btn').onClick(function(){
 //     $('.logo-img').addClass('jackInTheBox');
 // });
