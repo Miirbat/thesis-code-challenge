@@ -1,0 +1,75 @@
+/*=====================================================
+                DEFAULT VALUES:
+
+                Font Family       : Roboto Condensed
+                Dark Purple       : #752DD0   (header)
+                Medium Purple     : #744DDC   (header)
+                Light Purple      : #736EDF   (header)
+                White             : #fff      (text on purple, background)
+                Mint Green:       : #81D398   (header, buttons)
+                Off White:        : #F5F9FC   (background)
+                Steel Gray        : #41464b   (headings)
+                Black             : #000
+
+========================================================*/
+html, body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #41464b;
+}
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*=========================================================
+                        NAVIGATION
+===========================================================*/
+.navbar {
+  padding: 10px 0;
+  transition: all .5s ease-in-out;
+}
+.mywebnow-top-nav {
+  /* background: rgba(0,0,0,0.7); */
+  padding: 7px 0;
+}
+.mywebnow-nav-wrapper {
+  padding: 0 35px;
+}
+.navbar-nav {
+  float: right;
+}
+.navbar-nav li a {
+  color: #752DD0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+  background: none;
+  color: #34c6d3;
+}
+.navbar-toggle {
+  background-color: rgba(0,0,0,0.1);
+  /* border: 1px solid #fff; */
+  border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-collapse {
+  max-height: none !important;
+}
+.mywebnow-top-nav ul.navbar-nav li.active a {
+  color: #34c6d3
+}
