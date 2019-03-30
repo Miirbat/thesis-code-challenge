@@ -15,11 +15,11 @@
 @import "page/background.css";
 @import "page/general.css";
 @import "page/responsive.css";
+@import "page/navigation.css";
+@import "page/footer.css";
 @import "sections/home.css";
-@import "sections/navigation.css";
 @import "sections/about.css";
 @import "sections/services.css";
 @import "sections/contact.css";
-@import "sections/footer.css";
 @import "symbols/socials.css";
 @import "symbols/buttons.css";
